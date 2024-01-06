@@ -211,9 +211,10 @@ if __name__ == '__main__':
 
     for netname in ['Crime']:#'collaboration','grid','GrQC','facebook','figeys','ham','hep'，'hepth','RU','ES','lastfm','FR','DE','ENGB',
         path = os.path.join('..', 'results', netname)
+        edge_path = os.path.join('..', 'data', netname,'edges.txt')
         os.makedirs(path, exist_ok=True)
 
-        G = fileUtils.read_edgeList(os.path.join(path,'edges.txt'))
+        G = fileUtils.read_edgeList(edge_path)
         N = G.number_of_nodes()
         print("===================================================")
         print(f"There are {N} nodes and {G.number_of_edges()} edges in {netname}")
@@ -239,7 +240,7 @@ if __name__ == '__main__':
             np.savetxt(os.path.join(path, 'VE_gcc.txt'), gcc_list, fmt='%d')
             print(f"Number of attacked nodes:{len(gcc_list)}, R:{np.sum(gcc_list) / N / N}")
 
-            edges = np.loadtxt(os.path.join(path,'edges.txt'), delimiter=' ', dtype=int)  # 边列表
+            edges = np.loadtxt(edge_path, delimiter=' ', dtype=int)  # 边列表
             graph = nx.Graph()
             graph.add_edges_from(edges)
             reinsertion(graph, remove_list, args.dth, metric='VER', rel_path=path)
@@ -248,7 +249,7 @@ if __name__ == '__main__':
             np.savetxt(os.path.join(path, 'VE_remove_gcc.txt'), gcc_list, fmt='%d')
             print(f"(remove) Number of attacked nodes:{len(gcc_list)}, R:{np.sum(gcc_list) / N / N}")
 
-            edges = np.loadtxt(os.path.join(path, 'edges.txt'), delimiter=' ', dtype=int)  # 边列表
+            edges = np.loadtxt(edge_path, delimiter=' ', dtype=int)  # 边列表
             graph = nx.Graph()
             graph.add_edges_from(edges)
             reinsertion(graph, remove_list, args.dth, metric='VER_remove', rel_path=path)
