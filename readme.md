@@ -9,12 +9,6 @@ Yiming Huang, Hao Wang, Xiao-Long Ren, Linyuan Lü. Identifying key players in c
 This paper proposed an entanglement-based metric - vertex entanglement (VE) - quantifying local perturbations on spectral entropy, with superior applications in network dismantling and brain network analysis.
 
 
-# Reference
-
-Please cite our work if you find our code/paper is useful to your work:
-```latex
-
-```
 
 
 # Repo Contents
@@ -38,6 +32,12 @@ https://github.com/hcmidt/corehd (CoreHD)
 https://github.com/renxiaolong/Generalized-Network-Dismantling (GNDR)
 ```
 
+# Reference
+
+Please cite our work if you find our code/paper is useful to your work:
+```latex
+
+```
 
 
 
