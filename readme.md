@@ -24,7 +24,7 @@ Please cite our work if you find our code/paper is useful to your work:
    - **VE.py**: python version implementation
    - VE.m: matlab version implementation
    - reinsertion.py 
-   - GNDR.py: The original GND code is not in Python, and it is not adapted for non-connected graphs. We provide a Python version of the GND algorithm. 
+   - GNDR.py: The original GNDR code is not in Python, and it is not adapted for non-connected graphs. We provide a Python version of the GNDR algorithm. 
 3. utils: basic utils used in the src code
 
 
