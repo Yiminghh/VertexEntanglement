@@ -36,7 +36,13 @@ https://github.com/renxiaolong/Generalized-Network-Dismantling (GNDR)
 
 Please cite our work if you find our code/paper is useful to your work:
 ```latex
-
+@article{VE2024Huang,
+  title={Influential Simplices Mining via Simplicial Convolutional Network},
+  author={Huang, Yiming and Wang, Hao and Ren, Xiao-Long and L{\"u}, Linyuan},
+  journal={Communications Physics},
+  doi={10.1038/s42005-023-01483-8},
+  year={2024}
+}
 ```
 
 
