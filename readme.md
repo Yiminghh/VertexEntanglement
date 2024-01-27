@@ -1,6 +1,6 @@
 # Identifying key players in complex networks through network entanglement
 
-Yiming Huang, Hao Wang, Xiao-Long Ren, Linyuan Lü. Identifying key players in complex networks through network entanglement. Communications Physics (2024).
+[Yiming Huang](https://yiminghh.github.io/), Hao Wang, Xiao-Long Ren, [Linyuan Lü](https://linyuanlab.com/). Identifying key players in complex networks through network entanglement. Communications Physics (2024).
 
 <p align="center">
   <img src=".\VertexEnt.png" width="700">
