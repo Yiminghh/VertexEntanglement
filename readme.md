@@ -36,12 +36,17 @@ https://github.com/renxiaolong/Generalized-Network-Dismantling (GNDR)
 
 Please cite our work if you find our code/paper is useful to your work:
 ```latex
-@article{VE2024Huang,
-  title={Identifying key players in complex networks through network entanglement},
+@article{VE2024Huang,  
+  title = {Identifying key players in complex networks via network entanglement},  
   author={Huang, Yiming and Wang, Hao and Ren, Xiao-Long and L{\"u}, Linyuan},
-  journal={Communications Physics},
-  doi={10.1038/s42005-023-01483-8},
-  year={2024}
+  journal = {Communications Physics},  
+  year = {2024},  
+  volume = {7},  
+  number = {1},  
+  pages = {19},  
+  issn = {2399-3650},  
+  url = {https://doi.org/10.1038/s42005-023-01483-8},  
+  doi = {10.1038/s42005-023-01483-8},  
 }
 ```
 
