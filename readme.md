@@ -1,6 +1,9 @@
 # Identifying key players in complex networks through network entanglement
 
-[Yiming Huang](https://yiminghh.github.io/), Hao Wang, Xiao-Long Ren, [Linyuan Lü](https://linyuanlab.com/). Identifying key players in complex networks through network entanglement. Communications Physics (2024).
+[Yiming Huang](https://yiminghh.github.io/), 
+[Hao Wang](https://scholar.google.com/citations?user=Mfj5te4AAAAJ&hl=zh-CN), 
+[Xiao-Long Ren](https://github.com/renxiaolong), 
+[Linyuan Lü](https://linyuanlab.com/). Identifying key players in complex networks through network entanglement. Communications Physics (2024).
 
 <p align="center">
   <img src=".\VertexEnt.png" width="700">
@@ -14,12 +17,21 @@ This paper proposed an entanglement-based metric - vertex entanglement (VE) - qu
 # Repo Contents
 
 1. data
+   - please put your dataset in the following directory `'./data/{data_name}/edges.txt'`
 2. src: source code of VE
-   - **VE.py**: python version implementation
-   - VE.m: matlab version implementation
-   - reinsertion.py 
+   - **VE.py: python version implementation of our algorithm**
+   - reinsertion.py:  this algorithm can reinsert nodes that 
    - GNDR.py: The original GNDR code is not in Python, and it is not adapted for non-connected graphs. We provide a Python version of the GNDR algorithm. 
 3. utils: basic utils used in the src code
+
+
+# Reproduce results
+
+ Run `VE.py` directly to reproduce the dismantling results in our paper.
+
+- The resulting list of moving nodes is given in `'./results/{data_name}/VER_nodelist.txt'`
+- The resulting GCC change list corresponding to the given removing nodes list is reported in `'./results/{data_name}/VER_gcc.txt'`
+- Change `netname` to conduct experiments for different datasets. Note that your dataset should put the edge list in the following directory `'./data/{data_name}/edges.txt'`
 
 
 # Basebline methods implementation
