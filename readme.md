@@ -19,8 +19,8 @@ This paper proposed an entanglement-based metric - vertex entanglement (VE) - qu
 1. data
    - please put your dataset in the following directory `'./data/{data_name}/edges.txt'`
 2. src: source code of VE
-   - **VE.py: python version implementation of our algorithm**
-   - reinsertion.py:  this algorithm reinserts nodes for network dismantling
+   - **VE.py: python version implementation of our algorithm.**
+   - reinsertion.py:  this algorithm reinserts nodes for network dismantling.
    - GNDR.py: The original GNDR code is not in Python, and it is not adapted for non-connected graphs. We provide a Python version of the GNDR algorithm. 
 3. utils: basic utils used in the src code
 
