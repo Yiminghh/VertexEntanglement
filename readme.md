@@ -29,7 +29,7 @@ This paper proposed an entanglement-based metric - vertex entanglement (VE) - qu
 
  Run `VE.py` directly to reproduce the dismantling results in our paper.
 
-- The resulting list of moving nodes is given in `'./results/{data_name}/VER_nodelist.txt'`
+- The resulting list of removing nodes is given in `'./results/{data_name}/VER_nodelist.txt'`
 - The resulting GCC change list corresponding to the given removing nodes list is reported in `'./results/{data_name}/VER_gcc.txt'`
 - Change `netname` to conduct experiments for different datasets. Note that your dataset should put the edge list in the following directory `'./data/{data_name}/edges.txt'`
 
